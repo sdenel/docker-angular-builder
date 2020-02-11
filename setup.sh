@@ -3,6 +3,7 @@ set -e
 
 echo "# Installing common tools"
 apk add curl git npm p7zip util-linux jq bash binutils
+pip install j2cli
 
 echo "# Installing Chromium package."
 apk upgrade && apk add --no-cache \
