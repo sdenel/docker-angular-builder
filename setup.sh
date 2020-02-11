@@ -30,6 +30,8 @@ apk add py-pip
 pip install --upgrade pip
 pip install awscli
 
+echo "# Adding Docker"
+apk add docker
 
 echo "# Cleaning cache files"
 rm -rf /var/cache/* \
