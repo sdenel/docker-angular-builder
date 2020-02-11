@@ -2,7 +2,7 @@
 set -e
 
 echo "# Installing common tools"
-apk add curl git npm p7zip util-linux jq bash binutils
+apk add curl git npm p7zip util-linux jq bash binutils py-pip
 pip install j2cli
 
 echo "# Installing Chromium package."
